@@ -2,8 +2,10 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-
+//This is the calculator
 public class Cacluator implements ActionListener{
+    //Strating our window
+    JFrame window = new JFrame("Calculator");
     JTextField textField;
     JButton[] numberButtons = new JButton[10];
     JButton[] functionsButtons = new JButton[9];
@@ -20,7 +22,7 @@ public class Cacluator implements ActionListener{
     char operator;
 
     Cacluator() {
-        window = new JFrame("Calculator");
+       
         window.setLayout(null);
 
 
@@ -110,6 +112,7 @@ public class Cacluator implements ActionListener{
     }
 
     public static void main(String args[]) {
+        //starting the constructor
          Cacluator calc = new Cacluator();
     }
 
