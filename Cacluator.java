@@ -4,7 +4,6 @@ import java.awt.event.*;
 
 
 public class Cacluator implements ActionListener{
-    JFrame window;
     JTextField textField;
     JButton[] numberButtons = new JButton[10];
     JButton[] functionsButtons = new JButton[9];
